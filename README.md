@@ -12,6 +12,7 @@
   <li>Javascript</li>
   <li>NodeJs com Express</li>
   <li>Nunjucks para deixar o HTML dinâmico</li>
+  <li>SQLite3</li>
  </ul>
  
  <h2>🏁 Testando o Projeto</h2>
