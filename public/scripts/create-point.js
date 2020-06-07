@@ -47,14 +47,14 @@ document
 const itemsToCollect = document.querySelectorAll('.items-grid li');
 
 for(const item of itemsToCollect) {
-    item.addEventListener('click', handkeSelectedItem)
+    item.addEventListener('click', handeSelectedItem)
 }
 
 const collecetedItems = document.querySelector('input[name=items]');
 
 let selectedItems = [];
 
-function handkeSelectedItem(event) {
+function handeSelectedItem(event) {
     const itemLi = event.target;
 
     itemLi.classList.toggle('selected')
